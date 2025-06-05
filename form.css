@@ -30,6 +30,17 @@ header {
 #page-location {
   padding-left: 15px;
 }
+#nav-bar {
+  background-color: #333;
+  color: #fff;
+}
+#nav-bar ul {
+  padding: 20;
+  list-style: none;
+}
+#nav-bar li {
+  display: inline;
+}
 .container {
   max-width: 50%;
   margin: auto;
