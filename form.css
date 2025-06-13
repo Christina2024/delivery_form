@@ -9,65 +9,75 @@ body {
   font: normal 16px arial, helvetica, sans-serif;
   margin: 0;
   background-color: #f4f4f4;
-  color: #555555;
+  /*color: #555555;*/
   line-height: 1.6em;
   font-size: 16px;
 }
-header {
-  position: relative;
-  padding: 10px 0px 0px 0px;
-  background-color: rgb(82, 152, 104);
-  /*  rgb(74, 136, 94) */
+#box {
+  /* Free shipping */
+  display: flex;
+  position: inherit;
+  justify-content: center;
+  height: 60px;
+  background-color: #4d715c;
 }
-
-#logo-image {
-  width: 300px;
-  height: 200px;
+#box h3 {
+  /* Free shipping */
+  color: #ffffff;
 }
-#company-title {
+#header {
+  /*This is for the promotional box. */
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+#header h1 {
   font: 100 3em arial;
-  position: absolute;
-  top: 100px;
-  left: 280px;
-  margin: auto;
-  color: #fff;
+  color: #0b0b0b;
 }
-#nav-bar {
-  background-color: #333;
-  padding: 5px;
-  color: #fff;
-  justify-items: center;
-}
-#nav-bar a {
-  display: inline;
-  padding: 90px;
-  align-content: space-between;
-  font-weight: 900;
-  font-size: 1.5em;
+/* COME BACK TO THIS. */
+.hamburger-icon {
+  font-size: 50px;
+  color: #000000;
+  font-weight: 100;
 }
 .menu {
   display: none;
 }
+#logo-image {
+  width: 100px;
+  height: 80px;
+}
+/* COME BACK TO THIS. */
+
+.promo-container {
+  width: 100em;
+  height: 250px; /*background-image: url("../ideas.png");*/
+  background-color: #4d715c;
+}
+.promo-container h2 {
+  display: flex;
+  justify-content: center;
+}
 #intro {
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 90px;
+  margin: 20px;
 }
 #intro-textbox {
   display: flex;
-  justify-content: flex-start;
-  width: 90ch;
-  height: 500px;
+  max-width: 90ch;
+  max-height: 90%;
   position: relative;
-  left: 100px;
+  left: 20px;
   top: 80px;
 }
 
 .fruit-img {
   /* Image at the top.*/
-  margin-top: 50px;
   max-width: 100%;
-  height: 500px;
+  max-width: 40%;
   border-radius: 15px;
 }
 .container {
@@ -78,7 +88,6 @@ header {
 .box-1 {
   background-color: rgb(231, 234, 191);
   color: #000000;
-
   border-bottom: 5px rgb(0.255) solid;
   border-bottom-width: 10px;
   word-spacing: 0.5em;
