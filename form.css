@@ -13,7 +13,7 @@ body {
   line-height: 1.6em;
   font-size: 16px;
 }
-#box {
+#top-bar {
   /* Free shipping */
   display: flex;
   position: inherit;
@@ -21,7 +21,7 @@ body {
   height: 60px;
   background-color: #4d715c;
 }
-#box h3 {
+#top-bar h3 {
   /* Free shipping */
   color: #ffffff;
 }
@@ -49,16 +49,23 @@ body {
   height: 80px;
 }
 /* COME BACK TO THIS. */
-
-.promo-container {
+.promo-box {
   width: 100em;
-  height: 250px; /*background-image: url("../ideas.png");*/
+  height: 400px; /*background-image: url("../ideas.png");*/
   background-color: #4d715c;
+  position: relative;
+  left: 500px;
+  background-image: url();
 }
-.promo-container h2 {
-  display: flex;
-  justify-content: center;
+.container-btn {
+  position: initial;
+  left: 50%;
+  background-color: #0b0b0b;
+  border: 2px solid;
+  color: #ffffff;
 }
+/* COME BACK TO THIS */
+
 #intro {
   display: flex;
   justify-content: center;
@@ -72,6 +79,7 @@ body {
   position: relative;
   left: 20px;
   top: 80px;
+  margin-left: 10px;
 }
 
 .fruit-img {
@@ -80,103 +88,10 @@ body {
   max-width: 40%;
   border-radius: 15px;
 }
-.container {
-  width: 500px;
-  margin: auto;
-}
-
-.box-1 {
-  background-color: rgb(231, 234, 191);
-  color: #000000;
-  border-bottom: 5px rgb(0.255) solid;
-  border-bottom-width: 10px;
-  word-spacing: 0.5em;
-  max-width: 90%;
-}
-.box-2 {
-  border: 3px solid #ccc;
-  border-radius: 15px;
-  padding: 20px;
-  padding: 20px;
-}
-.categories {
-  margin-top: 25px;
-  border: 1px #ccc solid;
-  padding: 10px;
-  border-radius: 15px;
-}
-.categories h2 {
-  text-align: center;
-}
-.categories ul {
-  padding: 0;
-  padding-left: 15px;
-  list-style: square;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-}
-a:hover,
-a:visited {
-  color: rgb(230, 237, 237);
-}
-.my-form {
-  padding: 20px;
-}
-.my-form,
-.form-group {
-  padding-bottom: 15px;
-}
-.my-form label {
-  display: block;
-}
-.my-form input[type="text"],
-.my-form textarea {
-  padding: 8px;
-  width: 100%;
-}
-.clr {
-  clear: both;
-}
-.block {
-  float: left;
-  width: 33.3%;
-  border: 1px solid #ccc;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-#main-block {
-  float: left;
-  width: 70%;
-}
-#sidebar {
-  float: right;
-  width: 30%;
-}
-
-.categories li {
-  padding-bottom: 6px;
-  border-bottom: dotted 1px #333;
-}
-
 .subscribe-btn {
   position: fixed;
   top: 900px;
   background-color: #000000;
   color: #ffffff;
   padding: 10px;
-}
-
-@media (max-width: 800px) {
-  #main-block {
-    width: 100%;
-    float: none;
-  }
-  .block {
-    width: 100%;
-    float: none;
-  }
 }
