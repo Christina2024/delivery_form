@@ -25,42 +25,68 @@ body {
   /* Free shipping */
   color: #ffffff;
 }
+
+/* 
+//
+//
+The beginning of the HEADER tag */
 #header {
-  /*This is for the promotional box. */
   display: flex;
   align-items: center;
   margin-left: 40px;
 }
+
 #header h1 {
   font: 100 3em arial;
   color: #0b0b0b;
 }
-/* COME BACK TO THIS. */
-.hamburger-icon {
-  font-size: 50px;
-  color: #000000;
-  font-weight: 100;
-}
-.menu {
-  display: none;
-}
+
 #logo-image {
   width: 100px;
   height: 80px;
 }
 
 .fruit-img {
-  /* Image at the top.*/
   max-width: 100%;
   max-width: 40%;
   border-radius: 15px;
 }
+
+strong {
+  color: rgb(223, 226, 43);
+}
+.nav-bar {
+  display: flex;
+  padding-left: 650px;
+}
+.navbar ul {
+}
+.nav-bar li {
+  list-style: none;
+}
+
+.nav-bar:hover {
+  cursor: pointer;
+}
+.cart {
+  display: flex;
+  justify-items: space-around;
+  border: none;
+  width: 3em;
+  height: 3em;
+}
+/* The end of the HEADER tag */
+
+/* The beginning of the MAIN section tag. */
 .subscribe-btn {
   position: fixed;
   top: 900px;
   background-color: #000000;
   color: #ffffff;
   padding: 10px;
+}
+.subscribe-btn:hover {
+  background-color: #343232;
 }
 .clr {
   clear: both;
@@ -86,6 +112,10 @@ body {
   padding: 10px 40px 10px 40px;
   color: #ffffff;
 }
+.container-btn:hover {
+  background-color: #343232;
+  cursor: pointer;
+}
 main {
   display: flex;
   justify-content: center;
@@ -98,4 +128,42 @@ main {
   margin-top: 50px;
   text-align: center;
   box-sizing: border-box;
+}
+/* The beginning of the MAIN section tag. */
+
+.sub-header h2 p {
+  /*display: flex;
+  justify-items: center;
+  text-align: center;
+  */
+  padding-left: 200px;
+  font-size: 20em;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+.inventory {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.inventory-img {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: flex-start;
+}
+.add-to-cart {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.decrese-btn .counter .increase-btn {
+  display: flex;
+  margin-left: 500px;
 }
