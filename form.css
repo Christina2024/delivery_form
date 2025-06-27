@@ -37,7 +37,7 @@ The beginning of the HEADER tag */
 }
 
 #header h1 {
-  font: 100 3em arial;
+  font: 100 2.5em arial;
   color: #0b0b0b;
 }
 
@@ -101,10 +101,14 @@ strong {
   width: 2050px;
   height: 800px;
   background-image: url(https://cdn.shopify.com/s/files/1/0513/3428/3424/files/pineapple_guava.jpg?v=1694698442);
+  background-repeat: no-repeat;
   background-color: #4d715c;
   position: relative;
-  object-fit: none;
+  object-fit: cover;
 }
+/*
+https://cdn.shopify.com/s/files/1/0513/3428/3424/files/pineapple_guava.jpg?v=1694698442
+*/
 
 .container-btn {
   position: absolute;
@@ -173,4 +177,43 @@ main {
 .decrese-btn .counter .increase-btn {
   display: flex;
   margin-left: 500px;
+}
+
+.side {
+  float: left;
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 100px;
+  height: 400px;
+  background-color: #4d715c;
+  padding-left: 40px;
+  display: flex;
+  border: 1px solid;
+}
+
+footer .social-icons {
+  width: 10%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row wrap;
+  position: relative;
+  top: 200px;
+}
+footer p {
+  position: relative;
+  top: 200px;
+  font-size: 1em;
+  width: 30ch;
+  color: #f4f4f4;
+}
+.registered {
+  text-align: center;
 }
