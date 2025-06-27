@@ -59,10 +59,9 @@ strong {
   display: flex;
   padding-left: 650px;
 }
-.navbar ul {
-}
 .nav-bar li {
   list-style: none;
+  font-size: 1.5em;
 }
 
 .nav-bar:hover {
@@ -84,6 +83,8 @@ strong {
   background-color: #000000;
   color: #ffffff;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .subscribe-btn:hover {
   background-color: #343232;
@@ -98,9 +99,11 @@ strong {
 
 .promo-box {
   width: 2050px;
-  height: 800px; /*background-image: url("../ideas.png");*/
+  height: 800px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0513/3428/3424/files/pineapple_guava.jpg?v=1694698442);
   background-color: #4d715c;
   position: relative;
+  object-fit: none;
 }
 
 .container-btn {
@@ -129,15 +132,19 @@ main {
   text-align: center;
   box-sizing: border-box;
 }
+.icon {
+  width: 40px;
+  height: 40px;
+}
 /* The beginning of the MAIN section tag. */
 
-.sub-header h2 p {
-  /*display: flex;
-  justify-items: center;
+.sub-header {
   text-align: center;
-  */
-  padding-left: 200px;
-  font-size: 20em;
+  padding: 100px;
+}
+.sub-header p {
+  /* COME BACK TO THHIS. */
+  font-size: 1em;
 }
 
 .section {
