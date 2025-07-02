@@ -9,7 +9,9 @@ body {
   font: normal 16px arial, helvetica, sans-serif;
   margin: 0;
   background-color: #f4f4f4;
-  /*color: #555555;*/
+  /*
+  color: #555555;
+  */
   line-height: 1.6em;
   font-size: 16px;
 }
@@ -27,8 +29,6 @@ body {
 }
 
 /* 
-//
-//
 The beginning of the HEADER tag */
 #header {
   display: flex;
@@ -73,6 +73,9 @@ strong {
   border: none;
   width: 3em;
   height: 3em;
+  position: fixed;
+  right: 80px;
+  transform: scaleX(-1);
 }
 /* The end of the HEADER tag */
 
@@ -80,11 +83,12 @@ strong {
 .subscribe-btn {
   position: fixed;
   top: 900px;
+  left: -35px;
   background-color: #000000;
   color: #ffffff;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+  padding: 12px;
+  transform: rotate(90deg);
+  font-size: 1.2em;
 }
 .subscribe-btn:hover {
   background-color: #343232;
@@ -100,13 +104,16 @@ strong {
 .promo-box {
   width: 2050px;
   height: 800px;
-  background-image: url(https://cdn.shopify.com/s/files/1/0513/3428/3424/files/pineapple_guava.jpg?v=1694698442);
+  background-image: url(https://www.tradinorganic.com/media/filer_public/7c/a4/7ca47190-14be-4b54-b797-987c61d75a5b/organic-tropical-fruits1.jpg);
   background-repeat: no-repeat;
-  background-color: #4d715c;
   position: relative;
-  object-fit: cover;
+  background-size: 100%;
+  object-fit: contain;
+  background-color: #4d715c;
 }
 /*
+
+
 https://cdn.shopify.com/s/files/1/0513/3428/3424/files/pineapple_guava.jpg?v=1694698442
 */
 
@@ -114,6 +121,7 @@ https://cdn.shopify.com/s/files/1/0513/3428/3424/files/pineapple_guava.jpg?v=169
   position: absolute;
   bottom: 20px;
   left: 950px;
+  font-size: 1.5em;
   background-color: #0b0b0b;
   border: 2px solid;
   padding: 10px 40px 10px 40px;
@@ -135,12 +143,15 @@ main {
   margin-top: 50px;
   text-align: center;
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 .icon {
   width: 40px;
   height: 40px;
 }
-/* The beginning of the MAIN section tag. */
+/* 
+background-color: #fff7f7;
+The beginning of the MAIN section tag. */
 
 .sub-header {
   text-align: center;
