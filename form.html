@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🥙Exoticá</title>
+    <title>🥙Healthy Bites</title>
     <link rel="stylesheet" type="text/css" href="./form.css" />
   </head>
   <body>
@@ -13,14 +13,12 @@
 
     <!--        -->
     <div id="header">
-      <div>
-        <img
-          id="logo-image"
-          src="https://png.pngtree.com/png-clipart/20250111/original/pngtree-fresh-tropical-fruit-assortment-png-image_19126367.png"
-          alt="Exotic fruit image"
-        />
-        <h1>Exoticá</h1>
-      </div>
+      <img
+        id="logo-image"
+        src="https://png.pngtree.com/png-clipart/20250111/original/pngtree-fresh-tropical-fruit-assortment-png-image_19126367.png"
+        alt="Exotic fruit image"
+      />
+      <h1>Healthy Bites</h1>
 
       <nav class="nav-bar">
         <ul>
@@ -243,9 +241,9 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <div class="add-to-cart">
           <h4>Add to cart:</h4>
-          <button class="decrease-btn">-</button>
+          <button class="decrease-btn" onclick="decrementButton()">-</button>
           <p class="counter">0</p>
-          <button class="increase-btn">+</button>
+          <button class="increase-btn" onclick="incrementButton()">+</button>
         </div>
       </div>
 
@@ -319,7 +317,7 @@
         />
       </div>
       <div class="registered">
-        <p>Registered ® 2025 | Exoticá fruits | Produced by Christina</p>
+        <p>Registered ® 2025 | Healthy Bites | Produced by Christina</p>
       </div>
       <div class="column">
         <ul>
@@ -344,5 +342,6 @@
         </ul>
       </div>
     </footer>
+    <script src="form.js"></script>
   </body>
 </html>

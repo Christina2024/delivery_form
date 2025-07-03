@@ -112,8 +112,6 @@ strong {
   background-color: #4d715c;
 }
 /*
-
-
 https://cdn.shopify.com/s/files/1/0513/3428/3424/files/pineapple_guava.jpg?v=1694698442
 */
 
@@ -227,4 +225,18 @@ footer p {
 }
 .registered {
   text-align: center;
+}
+
+.decrease-btn,
+.increase-btn {
+  margin: 10px;
+  padding: 15px;
+  border: #c4d0c9 2px solid;
+}
+
+.decrease-btn:hover,
+.increase-btn:hover {
+  background-color: #4d715c;
+  cursor: pointer;
+  color: #ffffff;
 }
