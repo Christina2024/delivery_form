@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🥙Healthy Bites</title>
+    <title>🥙Exoticá</title>
     <link rel="stylesheet" type="text/css" href="./form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Aladin&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:wght@300&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="top-bar">
@@ -12,39 +18,38 @@
     </div>
 
     <!--        -->
-    <div id="header">
-      <img
-        id="logo-image"
-        src="https://png.pngtree.com/png-clipart/20250111/original/pngtree-fresh-tropical-fruit-assortment-png-image_19126367.png"
-        alt="Exotic fruit image"
-      />
-      <h1>Healthy Bites</h1>
-
-      <nav class="nav-bar">
-        <ul>
-          <li>About us</li>
-        </ul>
-        <ul>
-          <li>Fruits</li>
-        </ul>
-        <ul>
-          <li>Vegetables</li>
-        </ul>
-        <ul>
-          <li>FAQs</li>
-        </ul>
-      </nav>
-      <!--        -->
-
-      <div class="shopping-basket">
+    <nav>
+      <div id="header">
         <img
-          src="https://www.svgrepo.com/show/533034/basket-shopping.svg"
-          alt="Shopping basket"
+          id="logo-image"
+          src="https://png.pngtree.com/png-clipart/20250111/original/pngtree-fresh-tropical-fruit-assortment-png-image_19126367.png"
+          alt="Exotic fruit image"
         />
-      </div>
-    </div>
+        <h1>Exoticá Fruits</h1>
 
-    <!--   INSERT IMAGE   -->
+        <div class="nav-links">
+          <ul>
+            <li><a href="">About</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Fruit produce</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Vegetable produce</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="shopping-basket">
+          <img
+            src="https://www.svgrepo.com/show/533034/basket-shopping.svg"
+            alt="Shopping basket"
+          />
+        </div>
+      </div>
+    </nav>
+
     <div class="top-section">
       <div class="promo-box">
         <buttton class="container-btn">Shop now</buttton>
@@ -300,24 +305,50 @@
         </div>
       </div>
     </section>
-
+    <!--    REVIEWS insert here. 
     <side>
-      <!-- INPUT REVIEWS HERE -->
-      <div class="review-1"></div>
-      <div class="review-2"></div>
-      <div class="review-3"></div>
+      <div class="review-1">
+        <h3>Abigail, Rochester</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          accusantium at quisquam a ipsam et mollitia consequuntur assumenda
+          sunt alias eligendi eaque, cum amet provident, veniam recusandae
+          ducimus nisi libero!
+        </p>
+      </div>
+      <div class="review-2">
+        <h3>Abigail, Rochester</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          accusantium at quisquam a ipsam et mollitia consequuntur assumenda
+          sunt alias eligendi eaque, cum amet provident, veniam recusandae
+          ducimus nisi libero!
+        </p>
+      </div>
+      <div class="review-3">
+        <h3>Abigail, Rochester</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          accusantium at quisquam a ipsam et mollitia consequuntur assumenda
+          sunt alias eligendi eaque, cum amet provident, veniam recusandae
+          ducimus nisi libero!
+        </p>
+      </div>
     </side>
-
+-->
     <footer>
       <div class="footer-columns">
-        <!-- Column 1: Text Links -->
         <div class="footer-column">
-          <h3>Company</h3>
+          <h3>Exoticá Fruits</h3>
           <ul>
             <li>About Us</li>
             <li>Careers</li>
             <li>Press</li>
             <li>Blog</li>
+            <li>Delivery</li>
+            <li>Returns and shipping policies</li>
+            <li>FAQ's</li>
+            <li>Sustainability</li>
           </ul>
         </div>
 
@@ -325,9 +356,11 @@
         <div class="footer-column">
           <h3>Contact</h3>
           <ul>
-            <li>Email: info@example.com</li>
-            <li>Phone: +1 234 567 890</li>
-            <li>Address: 123 Main St</li>
+            <li>Email: info@exoticafruits.com</li>
+            <li>Phone: +44 234 567 890</li>
+            <li>
+              Address: 56 Ampleton street, London, United Kingdom, SW12 3TY
+            </li>
           </ul>
         </div>
 
@@ -357,91 +390,6 @@
         </div>
       </div>
     </footer>
-    <!--
-    <footer>         
-        <div>
-        <div class="social-icons">
-          <img
-            class="facebook"
-            src="https://www.svgrepo.com/show/509105/facebook.svg"
-            alt="facebook-icon"
-          />
-          <img
-            class="instagram"
-            src="https://www.svgrepo.com/show/510026/instagram.svg"
-            alt="instagram-icon"
-          />
-          <img
-            class="youtube"
-            src="https://www.svgrepo.com/show/409360/youtube.svg"
-            alt="youtube-icon"
-          />
-          <img
-            class="tik-tok"
-            src="https://www.svgrepo.com/show/324169/tik-tok-brand-assets-video-socialnetwork-oneline.svg"
-            alt="Tik-tok icon"
-          />
-        </div>
-        <p>Follow us on our above social media links to receive updates.</p>
-      </div>
-      
-      
-      
-      
-      <div class="column">
-        <ul>
-          <ol>
-            About
-          </ol>
-        </ul>
-        <ul>
-          <ol>
-            Careers
-          </ol>
-        </ul>
-        <ul>
-          <ol>
-            Publicity and press
-          </ol>
-        </ul>
-        <ul>
-          <ol>
-            FAQs
-          </ol>
-        </ul>
-        <ul>
-            <ol>
-              Refunds policy
-            </ol>
-          </ul>
-          <ul>
-            <ol>
-              Shipping
-            </ol>
-          </ul>
-          <ul>
-            <ol>
-              Sustainability
-            </ol>
-          </ul>
-          <ul>
-            <ol>
-              Delivery
-            </ol>
-          </ul>
-      </div>
-    
-      
-      
-     
-      <div class="registered">
-        <p>Registered ® 2025 | Healthy Bites | Produced by Christina</p>
-      </div>
-      
-      
-    
-    </footer> 
-     -->
     <script src="form.js"></script>
   </body>
 </html>
